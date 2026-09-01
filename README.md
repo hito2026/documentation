@@ -10,6 +10,7 @@ La primera versión preserva el contenido público del sitio anterior:
 - Integración Deltav con Odoo 17.
 - Integración Odoo Producción v14.
 - Infraestructura e instalación local de Odoo Enterprise 19.0.
+- Alta disponibilidad y recuperación ante contingencias, incluido el caso OneCloud.
 - Introducciones, arquitectura, referencia API y estimaciones.
 
 ## Ejecutar localmente
