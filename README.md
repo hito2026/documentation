@@ -9,6 +9,7 @@ La primera versión preserva el contenido público del sitio anterior:
 - Tipos de integraciones con sistemas externos.
 - Integración Deltav con Odoo 17.
 - Integración Odoo Producción v14.
+- Infraestructura e instalación local de Odoo Enterprise 19.0.
 - Introducciones, arquitectura, referencia API y estimaciones.
 
 ## Ejecutar localmente
@@ -36,4 +37,3 @@ Cada documento es un archivo HTML autocontenido. Antes de publicar cambios:
 2. Verificar la página en escritorio y móvil.
 3. Confirmar que ejemplos, credenciales y datos de clientes no contengan
    secretos reales.
-
