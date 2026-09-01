@@ -24,12 +24,12 @@
   const button = document.createElement("button");
   button.type = "button";
   button.className = "print-button";
-  button.setAttribute("aria-label", "Generar PDF para entregar al cliente");
+  button.setAttribute("aria-label", "Imprimir para entregar al cliente");
   button.innerHTML = `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
       <path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/>
     </svg>
-    <span>Generar PDF</span>
+    <span>Imprimir para entregar</span>
   `;
   button.addEventListener("click", () => window.print());
   header.append(button);
