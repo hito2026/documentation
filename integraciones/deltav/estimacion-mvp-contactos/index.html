@@ -118,16 +118,17 @@ blockquote div{font-size:.88rem;color:var(--c-text)}
 }
 @media print{.sidebar,.menu-btn,.menu-overlay{display:none}.content{max-width:100%;padding:0}}
 </style>
+<link rel="stylesheet" href="/documentation/assets/css/brand.css" />
 </head>
 <body>
 <header>
   <button class="menu-btn" onclick="var s=document.getElementById('sb'),o=document.getElementById('mo');s.classList.toggle('open');o.classList.toggle('show')" aria-label="Menú">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
   </button>
-  <a href="/documentation/" class="logo">
-    <svg viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="7" fill="#1a6ff5"/><text x="16" y="22" text-anchor="middle" fill="white" font-size="18" font-weight="700" font-family="Inter,sans-serif">H</text></svg>
-    Hitofusion Docs
-  </a>
+<a href="/documentation/" class="logo" aria-label="Hitofusion Docs — Inicio">
+  <img src="/documentation/assets/images/hitofusion-logo.webp" alt="HitoFusion" width="184" height="32" />
+  <span class="docs-label">Documentación técnica</span>
+</a>
 </header>
 <div class="menu-overlay" id="mo" onclick="document.getElementById('sb').classList.remove('open');this.classList.remove('show')"></div>
 <div class="layout">
@@ -143,7 +144,7 @@ blockquote div{font-size:.88rem;color:var(--c-text)}
 <li><a href='/documentation/integraciones/produccion/api-doc'>API Doc</a></li>
 <li><a href='/documentation/integraciones/produccion/estimacion'>Estimación</a></li></ul></details></li>
 <li><a href='/documentation/integraciones/tipos-de-integraciones'>Tipos de integraciones</a></li></ul></details></li>
-<li><details open><summary>Infraestructura</summary><ul><li><a href='/documentation/infraestructura/instalacion-odoo-local/'>Instalación Odoo Local</a></li>
+<li><details open><summary>Infraestructura</summary><ul><li><details open><summary><a href='/documentation/infraestructura/instalacion-odoo-local/'>Instalación Odoo Local</a></summary><ul><li><a href='/documentation/infraestructura/instalacion-odoo-local/dimensionamiento-100-user/'>Dimensionamiento 100 User</a></li></ul></details></li>
 <li><details open><summary>Alta disponibilidad</summary><ul><li><a href='/documentation/infraestructura/alta-disponibilidad/caso-onecloud/'>Caso OneCloud</a></li></ul></details></li></ul></details></li></ul>
   </aside>
   <main class="content">
