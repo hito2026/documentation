@@ -56,6 +56,43 @@ header .logo .docs-label {
   margin-left: auto;
 }
 
+.print-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 15px;
+  border: 1px solid #0e6173;
+  border-radius: 20px;
+  background: #fff;
+  color: #0e5667;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+}
+
+.print-button:hover,
+.print-button:focus-visible {
+  background: #e9f3f5;
+  color: #0b4655;
+  box-shadow: 0 0 0 3px rgba(16, 74, 90, 0.12);
+  outline: 0;
+}
+
+.print-button svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
+.print-letterhead {
+  display: none;
+}
+
 .site-search svg {
   position: absolute;
   z-index: 1;
@@ -329,5 +366,196 @@ code:not(pre code) {
   .site-search input {
     height: 38px;
     font-size: 0.82rem;
+  }
+
+  .print-button {
+    width: 38px;
+    min-width: 38px;
+    height: 38px;
+    min-height: 38px;
+    padding: 0;
+  }
+
+  .print-button span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 16mm 16mm 18mm;
+}
+
+@media print {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    background: #fff;
+    color: #172b33;
+    font-size: 10pt;
+    line-height: 1.5;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  header,
+  .sidebar,
+  .menu-overlay,
+  .menu-btn,
+  .search-results,
+  .print-button {
+    display: none !important;
+  }
+
+  .layout {
+    display: block;
+    min-height: 0;
+    background: #fff;
+  }
+
+  .content {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .print-letterhead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 0 12mm;
+    padding: 0 0 5mm;
+    border-bottom: 2px solid #104a5a;
+  }
+
+  .print-company {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+
+  .print-company img {
+    display: block;
+    width: 46mm;
+    height: auto;
+    max-height: 10mm;
+    object-fit: contain;
+  }
+
+  .print-company span {
+    padding-left: 11px;
+    border-left: 1px solid #c8d5d9;
+    color: #173f4c;
+    font-size: 10pt;
+    font-weight: 600;
+  }
+
+  .print-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #52656d;
+    font-size: 8.5pt;
+  }
+
+  .print-date strong {
+    color: #173f4c;
+    font-size: 8pt;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 22pt;
+  }
+
+  h2 {
+    margin-top: 8mm;
+    font-size: 15pt;
+  }
+
+  h3 {
+    margin-top: 6mm;
+    font-size: 12pt;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid-page;
+  }
+
+  h1::after {
+    background: #ffa62b !important;
+  }
+
+  p,
+  li,
+  blockquote,
+  table,
+  pre,
+  .card {
+    orphans: 3;
+    widows: 3;
+  }
+
+  pre,
+  blockquote,
+  .table-wrap,
+  .table-scroll,
+  .card,
+  img,
+  svg {
+    break-inside: avoid-page;
+  }
+
+  .table-wrap,
+  .table-scroll {
+    overflow: visible;
+    box-shadow: none;
+  }
+
+  table {
+    font-size: 8.5pt;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    break-inside: avoid-page;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  a {
+    color: #0e6173;
+    text-decoration: none;
+  }
+
+  .heading-anchor {
+    display: none;
+  }
+
+  .home-cards {
+    display: block;
+  }
+
+  .home-cards .card {
+    margin-bottom: 7mm;
+    box-shadow: none;
   }
 }
