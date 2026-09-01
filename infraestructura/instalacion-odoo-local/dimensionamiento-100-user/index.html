@@ -139,6 +139,12 @@ blockquote div{font-size:.88rem;color:var(--c-text)}
   <img src="/documentation/assets/images/hitofusion-logo.webp" alt="HitoFusion" width="184" height="32" />
   <span class="docs-label">Documentación técnica</span>
 </a>
+<div class="site-search" data-site-search role="search">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+  <input id="site-search-input" type="search" placeholder="Buscar temas" autocomplete="off" aria-label="Buscar temas en la documentación" aria-controls="site-search-results" aria-expanded="false" />
+  <kbd aria-hidden="true">/</kbd>
+  <div id="site-search-results" class="search-results" data-search-results role="listbox" hidden></div>
+</div>
 </header>
 <div class="menu-overlay" id="mo" onclick="document.getElementById('sb').classList.remove('open');this.classList.remove('show')"></div>
 <div class="layout">
@@ -247,5 +253,6 @@ blockquote div{font-size:.88rem;color:var(--c-text)}
   <blockquote><div><strong>Dictamen</strong><br>Para 100 usuarios nominales y 20 % de concurrencia, la configuración de 10–15 vCPU, 24–32 GB de RAM y 500–800 GB NVMe es técnicamente prudente y ofrece margen de crecimiento. Se recomienda implementar 12 vCPU, 32 GB y 500 GB NVMe como punto inicial, conservando ampliación a 800 GB y cerrando la capacidad mediante una prueba de carga.</div></blockquote>
 </main>
 </div>
+<script src="/documentation/assets/js/search.js" defer></script>
 </body>
 </html>

@@ -25,6 +25,10 @@ ruby -run -e httpd . -p 8000
 
 Luego abrir <http://localhost:8000>.
 
+El buscador global carga `assets/search-index.json`, generado a partir de los
+títulos, encabezados y contenido de las páginas. La tecla `/` lleva el foco al
+campo de búsqueda.
+
 ## Despliegue
 
 El repositorio incluye `netlify.toml`; Netlify puede publicarlo directamente
