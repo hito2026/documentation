@@ -236,6 +236,21 @@ header .logo .docs-label {
   background: var(--hf-orange);
 }
 
+.sidebar .nav-number {
+  display: inline-block;
+  min-width: 2.25em;
+  margin-right: 0.3em;
+  color: #6a7d84;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sidebar a.active .nav-number,
+.sidebar summary:has(a.active) > .nav-number {
+  color: #0b4655;
+}
+
 .content {
   max-width: 1080px;
   padding: 46px 64px 96px;
