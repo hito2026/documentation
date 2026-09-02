@@ -12,6 +12,7 @@ La primera versión preserva el contenido público del sitio anterior:
 - Infraestructura e instalación local de Odoo Enterprise 19.0.
 - Dimensionamiento de infraestructura para 100 usuarios de Odoo Enterprise 19.
 - Alta disponibilidad y recuperación ante contingencias, incluido el caso OneCloud.
+- Hiper(N)productividad y casos de inteligencia artificial aplicada mediante Jinzo.
 - Introducciones, arquitectura, referencia API y estimaciones.
 
 ## Ejecutar localmente
