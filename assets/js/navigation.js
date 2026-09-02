@@ -3,6 +3,34 @@
   const rootList = sidebar?.querySelector(":scope > ul");
   if (!rootList) return;
 
+  const hiperPath = "/documentation/hiper-n-productividad/";
+  if (!rootList.querySelector(`a[href="${hiperPath}"]`)) {
+    const section = document.createElement("li");
+    section.innerHTML = `
+      <details open>
+        <summary><a href="${hiperPath}">Hiper(N)productividad</a></summary>
+        <ul>
+          <li>
+            <details open>
+              <summary><a href="${hiperPath}casos-de-exito/">Casos de éxito</a></summary>
+              <ul>
+                <li><a href="${hiperPath}casos-de-exito/colegio-magistratura-santa-fe/">Colegio de la Magistratura de Santa Fe</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </details>`;
+    rootList.append(section);
+  }
+
+  const normalizePath = (path) => path.replace(/index\.html$/, "").replace(/\/$/, "");
+  const currentPath = normalizePath(window.location.pathname);
+  rootList.querySelectorAll("a").forEach((link) => {
+    if (normalizePath(new URL(link.href, window.location.origin).pathname) === currentPath) {
+      link.classList.add("active");
+    }
+  });
+
   const numberList = (list, prefix = [], isRoot = false) => {
     let position = 0;
 

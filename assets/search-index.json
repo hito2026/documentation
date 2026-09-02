@@ -1218,5 +1218,28 @@
     "page": "Tipos de integraciones — Odoo con sistemas externos",
     "topic": "Ventajas del middleware",
     "url": "/documentation/integraciones/tipos-de-integraciones/#ventajas-del-middleware"
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Hiper(N)productividad",
+    "url": "/documentation/hiper-n-productividad/",
+    "text": "Inteligencia artificial aplicada, tecnología HitoFusion, plataforma Jinzo y casos de éxito."
+  },
+  {
+    "page": "Casos de éxito — Hiper(N)productividad",
+    "topic": "Casos de éxito",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/",
+    "text": "Experiencias de inteligencia artificial aplicada desarrolladas por HitoFusion a través de Jinzo."
+  },
+  {
+    "page": "Colegio de la Magistratura de Santa Fe",
+    "topic": "IA para la práctica judicial",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/",
+    "text": "Modalidad híbrida, clases presenciales, agente de inteligencia artificial y asistente personalizado para cada cursante mediante Jinzo."
+  },
+  {
+    "page": "Colegio de la Magistratura de Santa Fe",
+    "topic": "Evidencia pública y alcance",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/#5-evidencia"
   }
 ]
