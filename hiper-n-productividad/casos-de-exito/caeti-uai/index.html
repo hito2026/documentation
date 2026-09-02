@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CAETI — Universidad Abierta Interamericana — HitoFusion Docs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/documentation/assets/css/base.css" /><link rel="stylesheet" href="/documentation/assets/css/brand.css" />
+</head>
+<body>
+<header><button class="menu-btn" onclick="var s=document.getElementById('sb'),o=document.getElementById('mo');s.classList.toggle('open');o.classList.toggle('show')" aria-label="Menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button><a href="/documentation/" class="logo" aria-label="HitoFusion Docs — Inicio"><img src="/documentation/assets/images/hitofusion-logo.webp" alt="HitoFusion" width="184" height="32" /><span class="docs-label">Documentación técnica</span></a><div class="site-search" data-site-search role="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="site-search-input" type="search" placeholder="Buscar temas" autocomplete="off" aria-label="Buscar temas en la documentación" aria-controls="site-search-results" aria-expanded="false" /><kbd aria-hidden="true">/</kbd><div id="site-search-results" class="search-results" data-search-results role="listbox" hidden></div></div></header>
+<div class="menu-overlay" id="mo" onclick="document.getElementById('sb').classList.remove('open');this.classList.remove('show')"></div>
+<div class="layout"><aside class="sidebar" id="sb"><ul><li><a href="/documentation/">Home</a></li><li><details><summary>Integraciones</summary><ul><li><a href="/documentation/integraciones/tipos-de-integraciones/">Tipos de integraciones</a></li><li><a href="/documentation/integraciones/deltav/">Deltav</a></li><li><a href="/documentation/integraciones/produccion/">Producción</a></li></ul></details></li><li><details><summary>Infraestructura</summary><ul><li><a href="/documentation/infraestructura/instalacion-odoo-local/">Instalación Odoo Local</a></li><li><a href="/documentation/infraestructura/alta-disponibilidad/caso-onecloud/">Alta disponibilidad</a></li></ul></details></li></ul></aside>
+<main class="content">
+  <h1 id="caeti-uai"><a class="heading-anchor" href="#caeti-uai">#</a>CAETI — Universidad Abierta Interamericana</h1>
+  <p>Construcción de un espacio de trabajo colaborativo basado en Odoo, con interacción entre agentes inteligentes y personas para apoyar la gestión integral y las actividades profesionales del centro.</p>
+  <div class="document-meta"><span>Hiper(N)productividad</span><span>Odoo</span><span>Agentes inteligentes</span><span>Gestión académica</span><span>CAETI Rosario</span></div>
+
+  <h2 id="1-contexto">1. Contexto institucional</h2>
+  <p>El Centro de Altos Estudios en Tecnología Informática (CAETI) es una unidad académica de investigación de la Facultad de Tecnología Informática de la Universidad Abierta Interamericana. Su misión comprende investigación básica y aplicada, formación de recursos humanos y transferencia de resultados hacia la industria y la sociedad.</p>
+  <p>La fuente oficial de la Facultad identifica al <strong>Dr. Alejandro Roberto Sartorio</strong> como director del CAETI en la Sede Regional Rosario.</p>
+
+  <h2 id="2-desafio">2. Desafío</h2>
+  <p>El proyecto planteó integrar en un mismo ambiente la gestión del centro y el trabajo profesional de sus participantes. La solución debía permitir que personas y agentes inteligentes compartieran contexto, colaboraran sobre actividades registradas y mantuvieran trazabilidad dentro de una plataforma operativa común.</p>
+
+  <h2 id="3-solucion">3. Solución implementada</h2>
+  <p>Se construyó un espacio colaborativo basado en Odoo como soporte de gestión, incorporando interacciones entre agentes de inteligencia artificial y personas. Los agentes actúan como participantes del entorno de trabajo: reciben contexto, colaboran en tareas y devuelven resultados dentro de procesos que permanecen bajo conducción humana.</p>
+  <div class="table-wrap"><table><thead><tr><th>Capa</th><th>Función</th></tr></thead><tbody><tr><td>Odoo</td><td>Base operativa para organizar registros, actividades, estados y trazabilidad.</td></tr><tr><td>Espacio colaborativo</td><td>Contexto compartido para coordinar gestión institucional y trabajo profesional.</td></tr><tr><td>Agentes inteligentes</td><td>Asistencia y ejecución acotada de tareas a partir de objetivos e información disponible.</td></tr><tr><td>Participación humana</td><td>Definición de prioridades, supervisión, validación y autorización de acciones sensibles.</td></tr><tr><td>Gestión integral</td><td>Articulación de actividades dentro de un entorno común, sin separar la interacción conversacional del registro operativo.</td></tr></tbody></table></div>
+
+  <h2 id="4-modelo-colaboracion">4. Modelo de colaboración humano-agente</h2>
+  <ol><li>La persona define el objetivo, el contexto y las restricciones de la actividad.</li><li>El agente interpreta la solicitud y propone o ejecuta un recorrido permitido.</li><li>Las herramientas y los registros de Odoo aportan información operativa al proceso.</li><li>El resultado vuelve al espacio compartido para revisión y continuidad.</li><li>La persona valida, corrige, autoriza o escala según la sensibilidad de la acción.</li></ol>
+
+  <h2 id="5-valor">5. Valor del caso</h2>
+  <ul><li>Integra interacción con agentes y gestión operativa en una misma plataforma.</li><li>Conserva contexto, estados y evidencia de las actividades.</li><li>Permite combinar automatización asistida con responsabilidad humana.</li><li>Ofrece una base extensible para procesos académicos, científicos, profesionales y administrativos.</li><li>Materializa un modelo de organización donde la IA participa dentro del proceso y no como herramienta aislada.</li></ul>
+
+  <h2 id="6-evidencia">6. Evidencia y alcance documentado</h2>
+  <p>Las fuentes públicas de la UAI confirman la denominación, misión, pertenencia institucional y autoridades del CAETI. La construcción del espacio Odoo con agentes inteligentes se documenta a partir del antecedente interno aportado por HitoFusion. En esta etapa no se publican módulos de Odoo, arquitectura técnica, cantidad de personas usuarias, métricas de adopción ni indicadores cuantitativos de impacto.</p>
+  <div class="table-wrap"><table><thead><tr><th>Fuente</th><th>Qué permite sostener</th></tr></thead><tbody><tr><td><a href="https://caeti.uai.edu.ar/" rel="noopener noreferrer">Sitio oficial del CAETI</a></td><td>Identidad institucional, misión, investigación aplicada, formación y transferencia.</td></tr><tr><td><a href="https://uai.edu.ar/facultades/tecnolog%C3%ADa-inform%C3%A1tica/" rel="noopener noreferrer">Facultad de Tecnología Informática — UAI</a></td><td>Dirección del CAETI Rosario a cargo del Dr. Alejandro Roberto Sartorio.</td></tr><tr><td>Antecedente interno de HitoFusion</td><td>Construcción del espacio colaborativo sobre Odoo e interacción humano-agente.</td></tr></tbody></table></div>
+</main></div>
+<script src="/documentation/assets/js/search.js" defer></script><script src="/documentation/assets/js/navigation.js" defer></script><script src="/documentation/assets/js/print.js" defer></script>
+</body></html>
