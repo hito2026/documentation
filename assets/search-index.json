@@ -1235,11 +1235,47 @@
     "page": "Colegio de la Magistratura de Santa Fe",
     "topic": "IA para la práctica judicial",
     "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/",
-    "text": "Modalidad híbrida, clases presenciales, agente de inteligencia artificial y asistente personalizado para cada cursante mediante Jinzo."
+    "text": "Ambiente de formación y trabajo con agentes de inteligencia artificial para magistrados. Modalidad híbrida, clases presenciales, asistentes personalizados, equipos multiagente, seguridad, privacidad, trazabilidad y plataforma Jinzo."
   },
   {
     "page": "Colegio de la Magistratura de Santa Fe",
     "topic": "Evidencia pública y alcance",
-    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/#5-evidencia"
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/#9-evidencia"
+  },
+  {
+    "page": "Colegio de la Magistratura de Santa Fe",
+    "topic": "Contenidos trabajados",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/#5-contenidos",
+    "text": "Fundamentos de IA, machine learning, NLP, LLM, alucinaciones, sesgos, opacidad, agentes autónomos, sistemas multiagente, enjambres y trabajo humano-agente."
+  },
+  {
+    "page": "Colegio de la Magistratura de Santa Fe",
+    "topic": "Seguridad, privacidad y confidencialidad",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/#5-3-privacidad",
+    "text": "Clasificación de datos, anonimización, información reservada, servicios públicos de IA y nube institucional."
+  },
+  {
+    "page": "Colegio de la Magistratura de Santa Fe",
+    "topic": "Salvaguardas",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/colegio-magistratura-santa-fe/#7-salvaguardas",
+    "text": "Revisión humana, verificación de citas y fallos, confidencialidad, autoridad profesional y autorización de acciones sensibles."
+  },
+  {
+    "page": "CAETI — Universidad Abierta Interamericana",
+    "topic": "Espacio colaborativo Odoo con agentes inteligentes",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/caeti-uai/",
+    "text": "Gestión integral del CAETI Rosario en Odoo con interacción entre agentes de inteligencia artificial y personas bajo la dirección del Dr. Alejandro Roberto Sartorio."
+  },
+  {
+    "page": "CAETI — Universidad Abierta Interamericana",
+    "topic": "Modelo de colaboración humano-agente",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/caeti-uai/#4-modelo-colaboracion",
+    "text": "Objetivos, contexto, herramientas, registros Odoo, revisión humana y autorización de acciones sensibles."
+  },
+  {
+    "page": "CAETI — Universidad Abierta Interamericana",
+    "topic": "Evidencia y alcance documentado",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/caeti-uai/#6-evidencia",
+    "text": "Fuentes oficiales de CAETI y UAI, autoridad de CAETI Rosario y antecedente interno de HitoFusion."
   }
 ]

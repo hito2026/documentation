@@ -15,6 +15,7 @@
               <summary><a href="${hiperPath}casos-de-exito/">Casos de éxito</a></summary>
               <ul>
                 <li><a href="${hiperPath}casos-de-exito/colegio-magistratura-santa-fe/">Colegio de la Magistratura de Santa Fe</a></li>
+                <li><a href="${hiperPath}casos-de-exito/caeti-uai/">CAETI — Universidad Abierta Interamericana</a></li>
               </ul>
             </details>
           </li>
