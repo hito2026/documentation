@@ -56,7 +56,7 @@
 
   <section class="acceptance-section" id="5-conformidad" aria-labelledby="conformidad-title">
     <h2 id="conformidad-title">5. Checklist de conformidad del cliente</h2>
-    <p>Complete sus datos y marque todas las declaraciones. Al presionar <strong>Enviar conformidad</strong>, se remitirá una constancia a HitoFusion y una copia quedará dirigida al correo informado por el cliente.</p>
+    <p>Complete su nombre y correo electrónico, y marque la declaración de conformidad. Al presionar <strong>Enviar conformidad</strong>, se remitirá una constancia a HitoFusion y una copia quedará dirigida al correo informado.</p>
     <form class="acceptance-form" data-acceptance-form action="https://formsubmit.co/alejandro.sartorio@hitofusion.com" method="POST">
       <input type="hidden" name="_subject" value="Conformidad del cliente — Indisponibilidad del sistema (falla)" />
       <input type="hidden" name="_cc" value="info@hitofusion.com" />
@@ -71,26 +71,12 @@
         <label>Nombre y apellido
           <input type="text" name="Nombre y apellido" autocomplete="name" required />
         </label>
-        <label>Empresa
-          <input type="text" name="Empresa" autocomplete="organization" required />
-        </label>
-        <label>Cargo o función
-          <input type="text" name="Cargo o función" autocomplete="organization-title" required />
-        </label>
         <label>Correo electrónico
           <input type="email" name="email" autocomplete="email" required />
         </label>
       </div>
 
-      <fieldset>
-        <legend>Declaraciones de conformidad</legend>
-        <label class="acceptance-check"><input type="checkbox" name="Leí el documento completo" value="Sí" required /><span>Leí el documento completo y pude realizar las consultas que consideré necesarias.</span></label>
-        <label class="acceptance-check"><input type="checkbox" name="Comprendo el riesgo tecnológico" value="Sí" required /><span>Comprendo que no es posible eliminar por completo el riesgo tecnológico ni anticipar todos los eventos.</span></label>
-        <label class="acceptance-check"><input type="checkbox" name="Acepto las responsabilidades del cliente" value="Sí" required /><span>Comprendo y acepto las responsabilidades asignadas al cliente en este comunicado.</span></label>
-        <label class="acceptance-check"><input type="checkbox" name="Presto conformidad" value="Sí" required /><span>Presto conformidad con las medidas propuestas y autorizo la coordinación de las acciones necesarias.</span></label>
-      </fieldset>
-
-      <label class="acceptance-check acceptance-final"><input type="checkbox" name="Autorizo el envío de la constancia" value="Sí" required /><span>Autorizo el envío de esta constancia y de los datos ingresados a <strong>alejandro.sartorio@hitofusion.com</strong> e <strong>info@hitofusion.com</strong>.</span></label>
+      <label class="acceptance-check acceptance-final"><input type="checkbox" name="Declaración de conformidad" value="Sí" required /><span><strong>Declaración de conformidad.</strong> Declaro que leí y comprendí el documento, que pude realizar las consultas necesarias, que comprendo el riesgo tecnológico, que acepto las responsabilidades y medidas descriptas, y que autorizo el envío de esta constancia y de los datos ingresados a <strong>alejandro.sartorio@hitofusion.com</strong> e <strong>info@hitofusion.com</strong>.</span></label>
       <button class="acceptance-submit" type="submit">Enviar conformidad</button>
       <p class="acceptance-status" data-acceptance-status role="status" aria-live="polite"></p>
       <p class="acceptance-note">El envío utiliza FormSubmit como servicio de transmisión de formularios. No marque las casillas ni envíe el formulario si no está autorizado para aceptar el comunicado en nombre del cliente.</p>
