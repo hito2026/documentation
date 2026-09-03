@@ -157,8 +157,7 @@ header .logo .docs-label {
 }
 
 .acceptance-form,
-.acceptance-fields,
-.acceptance-form fieldset {
+.acceptance-fields {
   display: grid;
   gap: 16px;
 }
@@ -189,20 +188,6 @@ header .logo .docs-label {
   outline: 3px solid rgba(14, 97, 115, 0.22);
   outline-offset: 1px;
   border-color: #0e6173;
-}
-
-.acceptance-form fieldset {
-  margin: 4px 0 0;
-  padding: 18px;
-  border: 1px solid #cbdadd;
-  border-radius: 10px;
-  background: #fff;
-}
-
-.acceptance-form legend {
-  padding: 0 8px;
-  color: #173f4c;
-  font-weight: 700;
 }
 
 .acceptance-check {
