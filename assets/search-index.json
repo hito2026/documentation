@@ -1475,5 +1475,11 @@
     "topic": "Alcance del comunicado",
     "url": "/documentation/seguridad/indisponibilidad-del-sistema/#4-alcance",
     "text": "Clientes con Odoo administrado por HitoFusion; niveles de servicio y compromisos específicos según cada acuerdo vigente."
+  },
+  {
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
+    "topic": "Checklist de conformidad del cliente",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-conformidad",
+    "text": "Aceptación expresa del comunicado, identificación del cliente y envío de la constancia por correo electrónico a HitoFusion."
   }
 ]
