@@ -1385,5 +1385,53 @@
     "topic": "Evidencia y alcance documentado",
     "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-ia-productiva/#9-evidencia",
     "text": "Antecedente interno de HitoFusion; métricas cuantitativas y estándares externos pendientes de publicación."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Piloto operativo de agentes",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/",
+    "text": "Buzz, Cerebro, Odoo, agentes personales y swarm de especialistas para soporte, tickets, planes diarios y gestión supervisada."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Arquitectura implementada",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#3-arquitectura",
+    "text": "Buzz como espacio colaborativo, Cerebro como coordinador, Odoo como fuente de verdad read-only y artefactos persistentes para trazabilidad."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Swarm especializado de soporte",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#4-swarm",
+    "text": "Intake, Evidencia, Resolución, Comunicación y Revisión en modo SHADOW sin modificar Odoo, clientes, tickets ni código."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Agentes personales",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#5-agentes-personales",
+    "text": "Planes diarios, priorización, especificaciones, delegaciones, aprobaciones, correcciones y trazas bajo control humano."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Flujo operativo de tickets",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#6-flujo",
+    "text": "Identificación, normalización, evidencia autorizada, diagnóstico, borrador, revisión, trazabilidad y decisión humana."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Impacto esperado y validación",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#8-impacto",
+    "text": "Tiempo de análisis, calidad, consistencia, trabajo repetitivo y trazabilidad; beneficios esperados pendientes de medición contra línea de base."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Estado del piloto",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#9-estado",
+    "text": "Buzz publicado, Cerebro activo, swarm SHADOW, agentes personales, gateway Odoo read-only, artefactos persistentes y pruebas controladas."
+  },
+  {
+    "page": "HitoFusion — IA operativa con Buzz y Cerebro",
+    "topic": "Evidencia y alcance documentado",
+    "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#11-evidencia",
+    "text": "El Gist documenta arquitectura, restricciones y estado funcional; las métricas cuantitativas todavía no fueron publicadas."
   }
 ]
