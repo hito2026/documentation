@@ -121,6 +121,12 @@ header .logo .docs-label {
   font-size: 0.74rem;
 }
 
+.client-must-read,
+.client-must-read strong {
+  color: #b71c1c !important;
+  font-weight: 700 !important;
+}
+
 .site-search svg {
   position: absolute;
   z-index: 1;
