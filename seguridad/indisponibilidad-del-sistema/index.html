@@ -18,25 +18,58 @@
   <h2 id="1-comunicado">1. Comunicado</h2>
   <blockquote><div><strong>Nuestro compromiso con la continuidad y la seguridad.</strong><br /><br />La incorporación de inteligencia artificial a los procesos y servicios empresariales presenta nuevas oportunidades, pero también amplía los desafíos de seguridad y continuidad operativa. En HitoFusion trabajamos para que las instancias de Odoo que administramos se mantengan estables, protegidas y recuperables frente a incidentes.<br /><br />Los servicios externos contratados, nuestra infraestructura y los procesos y herramientas internos se encuentran en revisión continua. Este trabajo nos permite fortalecer controles, reducir riesgos, mejorar la capacidad de respuesta y sostener el mejor nivel de servicio posible.<br /><br />Ante una interrupción o degradación, nuestro equipo analiza la situación, contiene el impacto, coordina la recuperación y comunica la evolución por los canales definidos. Cada incidente se utiliza también como fuente de aprendizaje para mejorar las medidas preventivas y los procedimientos de recuperación.</div></blockquote>
 
-  <h2 id="2-alcance">2. Alcance</h2>
+  <h2 id="2-escenario">2. Un escenario más exigente</h2>
+  <p>La incorporación de inteligencia artificial, automatizaciones, integraciones y servicios conectados hace que mantener un sistema estable sea una tarea cada vez más compleja. Requiere mayor especialización, más controles y recursos adecuados para prevenir incidentes y recuperar la operación.</p>
+  <p>Por esa razón, ejecutar un sistema empresarial crítico en una computadora de uso común aumenta los riesgos: el equipo puede sufrir fallas físicas, malware, accesos indebidos, pérdida, robo, cortes eléctricos o configuraciones sin supervisión. Además, una única máquina suele carecer de redundancia, monitoreo continuo y mecanismos de recuperación probados.</p>
+  <p>También estamos observando incidentes y patrones de indisponibilidad poco habituales frente a experiencias anteriores. No es posible anticipar cada evento, pero sí prepararse para reducir su probabilidad, limitar el impacto y mejorar la recuperación. En respuesta, HitoFusion mantiene un plan de acciones preventivas, de mejora continua y de contingencia.</p>
+
+  <h2 id="3-alcance">3. Alcance</h2>
   <p>Este comunicado se aplica a clientes con instancias de Odoo alojadas en hosting administrado por HitoFusion. La disponibilidad puede verse afectada por componentes propios, servicios de terceros, conectividad, infraestructura, actualizaciones, incidentes de seguridad u otras dependencias de la solución.</p>
   <p>La revisión continua reduce la probabilidad y el impacto de incidentes, pero no implica una garantía de disponibilidad absoluta. Los niveles de servicio, ventanas de mantenimiento y compromisos específicos son los establecidos en cada contrato o acuerdo vigente.</p>
 
-  <h2 id="3-prevencion">3. Prevención y preparación</h2>
+  <h2 id="4-prevencion">4. Prevención y preparación</h2>
   <ul><li>Revisión periódica de servicios externos, infraestructura y herramientas internas.</li><li>Actualización de controles y procedimientos a medida que evolucionan las amenazas.</li><li>Monitoreo de estabilidad, capacidad y señales relevantes para la operación.</li><li>Protección de accesos, credenciales y datos según el entorno administrado.</li><li>Respaldo y mecanismos de recuperación definidos conforme al servicio contratado.</li><li>Registro de cambios e incidentes para facilitar análisis y aprendizaje.</li></ul>
 
-  <h2 id="4-respuesta">4. Respuesta ante una indisponibilidad</h2>
+  <h2 id="5-plan-coordinado">5. Plan coordinado con cada cliente</h2>
+  <p>Las acciones se dividen en dos categorías: medidas que requieren coordinación y custodia por parte del cliente, y compromisos operativos asumidos por HitoFusion. Antes de habilitar cada mecanismo se acordarán responsables, ubicación, horario, retención, acceso y canal de evidencia.</p>
+
+  <h3 id="5-1-cliente">5.1 Acciones bajo responsabilidad del cliente</h3>
+  <ol><li><strong>Directorio local de información esencial.</strong> Se coordinará la creación de un directorio de respaldo en uno o más equipos designados por el cliente. Allí se depositará, una vez por día, una exportación con información operativa esencial disponible para contingencias, como maestros, saldos y movimientos principales.</li><li><strong>Listados críticos actualizados.</strong> El cliente deberá definir qué información considera indispensable para continuar una operación mínima y conservar listados actualizados de esos datos.</li><li><strong>Custodia segura.</strong> Una vez entregada la copia, el cliente será responsable de proteger el equipo y la carpeta: acceso restringido, contraseña, cifrado cuando corresponda, antivirus actualizado y prohibición de compartir los archivos por medios no autorizados.</li><li><strong>Control de recepción.</strong> El cliente deberá designar una persona responsable de verificar periódicamente que los archivos se reciban, puedan abrirse y correspondan a la fecha esperada.</li></ol>
+  <blockquote><div><strong>Importante:</strong> una copia en una computadora personal no sustituye el respaldo técnico de la base de datos ni permite restaurar por sí sola toda la instancia de Odoo. Su finalidad es conservar información esencial para consulta y continuidad mínima.</div></blockquote>
+
+  <h3 id="5-2-hitofusion">5.2 Acciones y compromisos de HitoFusion</h3>
+  <ol><li><strong>Respaldo externo diario.</strong> HitoFusion realizará una copia de respaldo diaria en un servicio o servidor externo, en el horario definido para cada instancia.</li><li><strong>Registro de ejecución.</strong> La ejecución del respaldo quedará registrada. HitoFusion podrá acreditar la fecha, el horario y el resultado del proceso correspondiente.</li><li><strong>Revisión y mejora.</strong> Los procedimientos de respaldo, monitoreo, respuesta y recuperación se revisarán de manera continua y se ajustarán cuando se identifiquen riesgos u oportunidades de mejora.</li><li><strong>Evidencia ante fallas de terceros.</strong> Si la indisponibilidad se origina en un servicio externo contratado —por ejemplo, hosting o almacenamiento de respaldos— HitoFusion pondrá a disposición del cliente la evidencia disponible sobre el incidente, la dependencia afectada, el proveedor involucrado y las responsabilidades y acciones necesarias para resolverlo.</li><li><strong>Coordinación de recuperación.</strong> HitoFusion gestionará las acciones técnicas bajo su alcance y coordinará con el proveedor y el cliente las dependencias necesarias para restablecer el servicio.</li></ol>
+
+  <h3 id="5-3-certificacion">5.3 Evidencia y certificación de las acciones</h3>
+  <p>Para que los compromisos puedan verificarse, la evidencia podrá incluir registros de ejecución, reportes automáticos, identificadores de archivos, fecha y hora, estado del proceso e incidencias detectadas. La forma concreta de entrega o consulta se definirá con cada cliente según su servicio y nivel de acceso.</p>
+  <p>La existencia de una copia no equivale, por sí sola, a una recuperación garantizada. La capacidad real de restauración debe verificarse mediante controles de integridad y pruebas periódicas acordes con la criticidad del sistema.</p>
+
+  <h2 id="6-respuesta">6. Respuesta ante una indisponibilidad</h2>
   <ol><li><strong>Detección y registro:</strong> identificación del evento y apertura del seguimiento.</li><li><strong>Evaluación:</strong> determinación del alcance, impacto y prioridad.</li><li><strong>Contención:</strong> acciones para limitar la propagación o degradación.</li><li><strong>Recuperación:</strong> restauración progresiva y validada del servicio.</li><li><strong>Comunicación:</strong> actualización por los canales acordados cuando corresponda.</li><li><strong>Revisión posterior:</strong> análisis de causa, evidencia y oportunidades de mejora.</li></ol>
 
-  <h2 id="5-cliente">5. Qué debe informar el cliente</h2>
+  <h2 id="7-informacion-cliente">7. Qué debe informar el cliente</h2>
   <p>Si detecta una interrupción o degradación, comuníquese mediante el canal habitual de soporte e incluya, cuando sea posible:</p>
   <ul><li>Instancia o dirección afectada.</li><li>Fecha y hora aproximada de inicio.</li><li>Usuarios, áreas o funciones afectadas.</li><li>Mensaje de error o comportamiento observado.</li><li>Capturas y pasos realizados antes del incidente, sin compartir contraseñas ni secretos.</li></ul>
   <p>Esta información permite priorizar la atención, reducir el tiempo de diagnóstico y mantener trazabilidad durante la recuperación.</p>
 
-  <h2 id="6-mensaje-breve">6. Versión breve para distribución</h2>
-  <blockquote><div>La evolución de la inteligencia artificial plantea nuevos desafíos para mantener los sistemas estables, seguros y recuperables. En HitoFusion revisamos continuamente los servicios externos contratados, nuestra infraestructura y los procesos y herramientas internos para reducir riesgos, fortalecer la continuidad operativa y brindar el mejor servicio posible. Ante una indisponibilidad, nuestro equipo activa los procedimientos de análisis, contención, recuperación y comunicación definidos para cada entorno.</div></blockquote>
+  <h2 id="8-preguntas-frecuentes">8. Preguntas frecuentes</h2>
+  <h3 id="8-1-garantizar">8.1 ¿Se puede garantizar que el sistema funcione siempre, aun cuando haya una falla?</h3>
+  <p>No existe una garantía absoluta frente a toda falla posible. Técnicamente puede diseñarse una solución de <strong>alta disponibilidad</strong>, con componentes redundantes y mecanismos de conmutación para reducir interrupciones. HitoFusion contrata servicios de terceros que ofrecen capacidades de alta disponibilidad, por lo que parte del resultado depende también de la arquitectura y del cumplimiento de esos proveedores.</p>
+  <p>Alta disponibilidad no significa que nunca habrá una interrupción: busca reducir su probabilidad y duración. El alcance efectivo depende del servicio contratado, la arquitectura y los objetivos de recuperación acordados.</p>
 
-  <h2 id="7-vigencia">7. Vigencia y actualizaciones</h2>
+  <h3 id="8-2-caidas">8.2 ¿Cómo puede ser que, con la tecnología actual, los sistemas todavía se caigan?</h3>
+  <p>La tecnología hace que los sistemas sean cada vez más confiables, pero no elimina el riesgo. Existen fallas de hardware, software, conectividad, configuración y proveedores, además de incidentes de seguridad y ataques. La respuesta profesional no consiste en prometer riesgo cero, sino en combinar prevención, monitoreo, respaldo, recuperación y mejora continua.</p>
+
+  <h3 id="8-3-pc-local">8.3 ¿No conviene instalar el programa en una computadora propia?</h3>
+  <p>Para un sistema empresarial crítico, una computadora común suele aumentar el riesgo de pérdida de datos y dificultar la recuperación. Normalmente carece de redundancia, monitoreo permanente, respaldos externos controlados, energía protegida y procedimientos de respuesta. Una instalación local solo debería evaluarse después de analizar profesionalmente estos riesgos y asignar los recursos necesarios.</p>
+
+  <h3 id="8-4-como-seguir">8.4 Hay mucha información. ¿Cómo seguimos?</h3>
+  <p>El mejor paso es conversar y aclarar todas las dudas. HitoFusion comunicará por los canales habituales la información que resulte relevante y coordinará las acciones correspondientes. Los clientes pueden consultar todo lo que consideren necesario; cada medida se explicará antes de implementarse.</p>
+
+  <h2 id="9-mensaje-breve">9. Versión breve para distribución</h2>
+  <blockquote><div>La evolución de la inteligencia artificial, las integraciones y los servicios conectados plantea nuevos desafíos para mantener los sistemas estables, seguros y recuperables. En HitoFusion revisamos continuamente los servicios externos contratados, nuestra infraestructura y los procesos y herramientas internos. Coordinaremos con cada cliente medidas de continuidad que incluyen información esencial disponible localmente, respaldos externos diarios y evidencia de ejecución. Ante una indisponibilidad, nuestro equipo activará los procedimientos de análisis, contención, recuperación y comunicación definidos para cada entorno.</div></blockquote>
+
+  <h2 id="10-vigencia">10. Vigencia y actualizaciones</h2>
   <p>Este comunicado expresa el criterio general de HitoFusion y podrá actualizarse a medida que evolucionen la tecnología, los riesgos, los servicios contratados y los procedimientos internos. La última versión publicada en este portal es la versión vigente para comunicación general.</p>
 </main></div>
 <script src="/documentation/assets/js/search.js" defer></script><script src="/documentation/assets/js/navigation.js" defer></script><script src="/documentation/assets/js/print.js" defer></script>
