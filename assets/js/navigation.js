@@ -33,7 +33,7 @@
       <details open>
         <summary><a href="${securityPath}">Seguridad</a></summary>
         <ul>
-          <li><a href="${securityPath}indisponibilidad-del-sistema/">Indisponibilidad del sistema</a></li>
+          <li><a href="${securityPath}indisponibilidad-del-sistema/">Indisponibilidad del sistema (falla)</a></li>
         </ul>
       </details>`;
     rootList.append(section);

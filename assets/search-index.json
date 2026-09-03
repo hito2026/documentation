@@ -1441,45 +1441,39 @@
     "text": "Comunicaciones y criterios para servicios e instancias de Odoo alojadas en infraestructura administrada por HitoFusion."
   },
   {
-    "page": "Indisponibilidad del sistema — Seguridad",
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
     "topic": "Comunicado a clientes",
     "url": "/documentation/seguridad/indisponibilidad-del-sistema/",
     "text": "Compromiso de HitoFusion con la estabilidad, la seguridad, la continuidad operativa y la recuperabilidad de instancias Odoo administradas."
   },
   {
-    "page": "Indisponibilidad del sistema — Seguridad",
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
     "topic": "Medidas coordinadas",
     "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-medidas",
     "text": "Información esencial local, respaldo externo diario, custodia, evidencia, mejora continua y coordinación de recuperación."
   },
   {
-    "page": "Indisponibilidad del sistema — Seguridad",
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
     "topic": "Responsabilidades del cliente",
     "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-1-cliente",
     "text": "Directorio local de información esencial, listados críticos, custodia segura y control periódico de recepción."
   },
   {
-    "page": "Indisponibilidad del sistema — Seguridad",
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
     "topic": "Compromisos de HitoFusion",
     "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-2-hitofusion",
     "text": "Respaldo externo diario, registro de ejecución, mejora continua, evidencia ante fallas de terceros y coordinación de recuperación."
   },
   {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Respuesta ante una indisponibilidad",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#3-indisponibilidad",
-    "text": "Registro, evaluación, contención, recuperación, comunicación y datos que debe aportar el cliente."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
     "topic": "Preguntas frecuentes",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#4-preguntas-frecuentes",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#3-preguntas-frecuentes",
     "text": "Alta disponibilidad, causas de caídas, riesgos de instalar Odoo en una PC común y próximos pasos."
   },
   {
-    "page": "Indisponibilidad del sistema — Seguridad",
+    "page": "Indisponibilidad del sistema (falla) — Seguridad",
     "topic": "Alcance del comunicado",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-alcance",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#4-alcance",
     "text": "Clientes con Odoo administrado por HitoFusion; niveles de servicio y compromisos específicos según cada acuerdo vigente."
   }
 ]

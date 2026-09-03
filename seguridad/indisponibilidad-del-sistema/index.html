@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Indisponibilidad del sistema — Seguridad — HitoFusion Docs</title>
+<title>Indisponibilidad del sistema (falla) — Seguridad — HitoFusion Docs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/documentation/assets/css/base.css" /><link rel="stylesheet" href="/documentation/assets/css/brand.css" />
 </head>
@@ -11,46 +11,42 @@
 <div class="menu-overlay" id="mo" onclick="document.getElementById('sb').classList.remove('open');this.classList.remove('show')"></div>
 <div class="layout"><aside class="sidebar" id="sb"><ul><li><a href="/documentation/">Home</a></li><li><details><summary>Integraciones</summary><ul><li><a href="/documentation/integraciones/tipos-de-integraciones/">Tipos de integraciones</a></li><li><a href="/documentation/integraciones/deltav/">Deltav</a></li><li><a href="/documentation/integraciones/produccion/">Producción</a></li></ul></details></li><li><details><summary>Infraestructura</summary><ul><li><a href="/documentation/infraestructura/instalacion-odoo-local/">Instalación Odoo Local</a></li><li><a href="/documentation/infraestructura/alta-disponibilidad/caso-onecloud/">Alta disponibilidad</a></li></ul></details></li></ul></aside>
 <main class="content">
-  <h1 id="indisponibilidad-del-sistema"><a class="heading-anchor" href="#indisponibilidad-del-sistema">#</a>Indisponibilidad del sistema</h1>
+  <h1 id="indisponibilidad-del-sistema"><a class="heading-anchor" href="#indisponibilidad-del-sistema">#</a>Indisponibilidad del sistema (falla)</h1>
   <p>Comunicado para clientes que utilizan instancias de Odoo alojadas en infraestructura administrada por HitoFusion.</p>
   <div class="document-meta"><span>Seguridad</span><span>Continuidad</span><span>Recuperación</span><span>Odoo administrado</span><span>Comunicado a clientes</span></div>
 
   <h2 id="1-comunicado">1. Comunicado a nuestros clientes</h2>
   <p>Estimado cliente:</p>
   <p>La incorporación de inteligencia artificial, automatizaciones, integraciones y servicios conectados abre nuevas posibilidades, pero también hace más complejo mantener los sistemas estables, seguros y recuperables. Este escenario exige mayor especialización, controles permanentes y recursos adecuados.</p>
-  <p>Durante los últimos meses hemos observado incidentes y formas de indisponibilidad poco habituales respecto de experiencias anteriores. Sabemos que no es posible eliminar por completo el riesgo tecnológico ni anticipar todos los eventos. Nuestro compromiso es prepararnos mejor para prevenirlos, limitar su impacto y recuperar la operación de manera ordenada.</p>
+  <p>Durante los últimos meses hemos observado incidentes y formas de indisponibilidad poco habituales respecto de experiencias anteriores. <strong class="client-must-read">Sabemos que no es posible eliminar por completo el riesgo tecnológico ni anticipar todos los eventos.</strong> Nuestro compromiso es prepararnos mejor para prevenirlos, limitar su impacto y recuperar la operación de manera ordenada.</p>
   <p>Por este motivo, revisamos continuamente los servicios externos contratados, la infraestructura y nuestros procesos y herramientas internas. Además, comenzamos a coordinar con cada cliente un conjunto de medidas preventivas, de mejora continua y de contingencia.</p>
 
   <h2 id="2-medidas">2. Medidas que coordinaremos</h2>
   <p>Las acciones se organizan en dos grupos: responsabilidades que debe asumir el cliente y compromisos que asume HitoFusion.</p>
 
   <h3 id="2-1-cliente">2.1 Responsabilidades del cliente</h3>
-  <ol><li><strong>Conservar información esencial.</strong> Coordinaremos la creación de un directorio en uno o más equipos designados por el cliente. Una vez por día se depositará allí una exportación con información vital para una contingencia, como maestros, saldos y movimientos principales.</li><li><strong>Definir los datos críticos.</strong> Cada cliente deberá indicar qué listados necesita mantener actualizados para sostener una operación mínima si el sistema no se encuentra disponible.</li><li><strong>Proteger la copia recibida.</strong> El cliente será responsable de custodiar el equipo y los archivos mediante acceso restringido, contraseñas, cifrado cuando corresponda y medidas de seguridad actualizadas.</li><li><strong>Verificar la recepción.</strong> Una persona designada deberá controlar periódicamente que los archivos estén actualizados y puedan abrirse.</li></ol>
+  <ol><li class="client-must-read"><strong>Conservar información esencial.</strong> Coordinaremos la creación de un directorio en uno o más equipos designados por el cliente. Una vez por día se depositará allí una exportación con información vital para una contingencia, como maestros, saldos y movimientos principales.</li><li><strong>Definir los datos críticos.</strong> Cada cliente deberá indicar qué listados necesita mantener actualizados para sostener una operación mínima si el sistema no se encuentra disponible.</li><li><strong>Proteger la copia recibida.</strong> El cliente será responsable de custodiar el equipo y los archivos mediante acceso restringido, contraseñas, cifrado cuando corresponda y medidas de seguridad actualizadas.</li><li><strong>Verificar la recepción.</strong> Una persona designada deberá controlar periódicamente que los archivos estén actualizados y puedan abrirse.</li></ol>
   <blockquote><div><strong>Aclaración:</strong> esta copia local permite consultar información esencial durante una contingencia. No reemplaza el respaldo técnico de la base de datos ni permite restaurar por sí sola una instancia completa de Odoo.</div></blockquote>
 
   <h3 id="2-2-hitofusion">2.2 Compromisos de HitoFusion</h3>
-  <ol><li><strong>Respaldo externo diario.</strong> Realizaremos una copia diaria en un servicio o servidor externo, en el horario establecido para cada instancia.</li><li><strong>Evidencia de ejecución.</strong> Registraremos el resultado del proceso para poder informar fecha, hora, estado e incidencias detectadas.</li><li><strong>Revisión continua.</strong> Revisaremos y mejoraremos los procedimientos de monitoreo, respaldo, respuesta y recuperación.</li><li><strong>Transparencia ante fallas de terceros.</strong> Si una interrupción se origina en servicios contratados —como hosting o almacenamiento de respaldos— pondremos a disposición del cliente la evidencia disponible, la dependencia afectada y las acciones necesarias para resolverla.</li><li><strong>Coordinación de la recuperación.</strong> Gestionaremos las acciones técnicas bajo nuestro alcance y coordinaremos con el proveedor y el cliente las dependencias necesarias para restablecer el servicio.</li></ol>
+  <ol><li><strong>Respaldo externo diario.</strong> Realizaremos una copia diaria en un servicio o servidor externo, en el horario establecido para cada instancia.</li><li><strong>Evidencia de ejecución.</strong> Registraremos el resultado del proceso para poder informar fecha, hora, estado e incidencias detectadas.</li><li><strong>Revisión continua.</strong> Revisaremos y mejoraremos los procedimientos de monitoreo, respaldo, respuesta y recuperación.</li><li><strong>Transparencia ante fallas de terceros.</strong> Si una interrupción se origina en servicios contratados —como hosting o almacenamiento de respaldos— pondremos a disposición del cliente la evidencia disponible, la dependencia afectada y las acciones necesarias para resolverla.</li><li class="client-must-read"><strong>Coordinación de la recuperación.</strong> Gestionaremos las acciones técnicas bajo nuestro alcance y coordinaremos con el proveedor y el cliente las dependencias necesarias para restablecer el servicio.</li></ol>
   <p>La existencia de una copia no garantiza por sí sola la recuperación. Por eso los respaldos deben complementarse con controles de integridad y pruebas periódicas de restauración, según la criticidad y el servicio contratado.</p>
 
-  <h2 id="3-indisponibilidad">3. Qué haremos ante una indisponibilidad</h2>
-  <p>Ante una interrupción o degradación, HitoFusion registrará el incidente, evaluará su alcance, aplicará medidas de contención y coordinará la recuperación. La evolución se comunicará por los canales acordados y, una vez restablecido el servicio, se revisarán la causa y las oportunidades de mejora.</p>
-  <p>Para ayudarnos a responder con rapidez, solicitamos informar por el canal habitual de soporte:</p>
-  <ul><li>la instancia o dirección afectada;</li><li>la fecha y hora aproximada de inicio;</li><li>los usuarios o funciones afectados;</li><li>el mensaje de error o comportamiento observado;</li><li>capturas y pasos previos, sin incluir contraseñas ni secretos.</li></ul>
-
-  <h2 id="4-preguntas-frecuentes">4. Preguntas frecuentes</h2>
-  <h3 id="4-1-garantizar">4.1 ¿Se puede garantizar que el sistema funcione siempre, aun cuando haya una falla?</h3>
+  <h2 id="3-preguntas-frecuentes">3. Preguntas frecuentes</h2>
+  <p>Reunimos estas preguntas para explicar de manera simple los principales conceptos técnicos y ayudar a cada cliente a tomar decisiones informadas sobre la continuidad de su sistema.</p>
+  <h3 id="3-1-garantizar">3.1 ¿Se puede garantizar que el sistema funcione siempre, aun cuando haya una falla?</h3>
   <p>No existe una garantía absoluta frente a toda falla posible. La <strong>alta disponibilidad</strong> utiliza componentes redundantes y mecanismos de conmutación para reducir la probabilidad y duración de las interrupciones. HitoFusion contrata servicios de terceros con estas capacidades, por lo que el resultado también depende de la arquitectura elegida y del servicio brindado por esos proveedores.</p>
 
-  <h3 id="4-2-caidas">4.2 ¿Cómo puede ser que, con la tecnología actual, los sistemas todavía se caigan?</h3>
+  <h3 id="3-2-caidas">3.2 ¿Cómo puede ser que, con la tecnología actual, los sistemas todavía se caigan?</h3>
   <p>La tecnología mejora la confiabilidad, pero no elimina los riesgos. Pueden ocurrir fallas de hardware, software, conectividad, configuración o proveedores, además de incidentes de seguridad y ataques. La respuesta profesional consiste en combinar prevención, monitoreo, respaldo, recuperación y mejora continua.</p>
 
-  <h3 id="4-3-pc-local">4.3 ¿No conviene instalar el programa en una computadora propia?</h3>
+  <h3 id="3-3-pc-local">3.3 ¿No conviene instalar el programa en una computadora propia?</h3>
   <p>Para un sistema empresarial crítico, una computadora de uso común suele aumentar el riesgo de pérdida de datos y dificultar la recuperación. Generalmente carece de redundancia, monitoreo continuo, respaldos externos controlados, energía protegida y procedimientos de respuesta. Una instalación local solo debería evaluarse después de analizar estos riesgos y asignar los recursos técnicos necesarios.</p>
 
-  <h3 id="4-4-como-seguir">4.4 Hay mucha información. ¿Cómo seguimos?</h3>
+  <h3 id="3-4-como-seguir">3.4 Hay mucha información. ¿Cómo seguimos?</h3>
   <p>Lo mejor es conversar y aclarar todas las dudas. Informaremos por los canales habituales las medidas que resulte conveniente aplicar y las coordinaremos antes de implementarlas. Los invitamos a consultar todo lo que consideren necesario.</p>
 
-  <h2 id="5-alcance">5. Alcance del comunicado</h2>
+  <h2 id="4-alcance">4. Alcance del comunicado</h2>
   <p>Este comunicado está dirigido a clientes con instancias de Odoo alojadas en infraestructura administrada por HitoFusion. La revisión continua reduce riesgos, pero no implica disponibilidad absoluta. Los niveles de servicio, horarios, retención de respaldos y compromisos específicos son los establecidos en cada contrato o acuerdo vigente.</p>
   <p>La última versión publicada en este portal reemplaza las versiones generales anteriores y podrá actualizarse a medida que evolucionen la tecnología, los riesgos y los procedimientos internos.</p>
 </main></div>
