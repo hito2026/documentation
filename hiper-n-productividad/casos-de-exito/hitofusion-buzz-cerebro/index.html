@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HitoFusion — IA operativa con Buzz y Cerebro — HitoFusion Docs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/documentation/assets/css/base.css" /><link rel="stylesheet" href="/documentation/assets/css/brand.css" />
+</head>
+<body>
+<header><button class="menu-btn" onclick="var s=document.getElementById('sb'),o=document.getElementById('mo');s.classList.toggle('open');o.classList.toggle('show')" aria-label="Menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button><a href="/documentation/" class="logo" aria-label="HitoFusion Docs — Inicio"><img src="/documentation/assets/images/hitofusion-logo.webp" alt="HitoFusion" width="184" height="32" /><span class="docs-label">Documentación técnica</span></a><div class="site-search" data-site-search role="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="site-search-input" type="search" placeholder="Buscar temas" autocomplete="off" aria-label="Buscar temas en la documentación" aria-controls="site-search-results" aria-expanded="false" /><kbd aria-hidden="true">/</kbd><div id="site-search-results" class="search-results" data-search-results role="listbox" hidden></div></div></header>
+<div class="menu-overlay" id="mo" onclick="document.getElementById('sb').classList.remove('open');this.classList.remove('show')"></div>
+<div class="layout"><aside class="sidebar" id="sb"><ul><li><a href="/documentation/">Home</a></li><li><details><summary>Integraciones</summary><ul><li><a href="/documentation/integraciones/tipos-de-integraciones/">Tipos de integraciones</a></li><li><a href="/documentation/integraciones/deltav/">Deltav</a></li><li><a href="/documentation/integraciones/produccion/">Producción</a></li></ul></details></li><li><details><summary>Infraestructura</summary><ul><li><a href="/documentation/infraestructura/instalacion-odoo-local/">Instalación Odoo Local</a></li><li><a href="/documentation/infraestructura/alta-disponibilidad/caso-onecloud/">Alta disponibilidad</a></li></ul></details></li></ul></aside>
+<main class="content">
+  <h1 id="hitofusion-buzz-cerebro"><a class="heading-anchor" href="#hitofusion-buzz-cerebro">#</a>HitoFusion — IA operativa con Buzz y Cerebro</h1>
+  <p>Implementación de un espacio colaborativo donde personas coordinan con agentes, consultan información operativa, preparan planes, analizan tickets y delegan tareas a especialistas digitales bajo reglas de seguridad, trazabilidad y aprobación humana.</p>
+  <div class="document-meta"><span>Hiper(N)productividad</span><span>Buzz</span><span>Cerebro</span><span>Odoo</span><span>Swarm</span><span>Read-only</span><span>Gobierno humano</span></div>
+
+  <h2 id="1-resumen">1. Resumen ejecutivo</h2>
+  <div class="table-wrap"><table><tbody><tr><th>Organización</th><td>HitoFusion</td></tr><tr><th>Plataforma colaborativa</th><td>Buzz</td></tr><tr><th>Agente coordinador</th><td>Cerebro</td></tr><tr><th>Modelo operativo</th><td>Agentes personales y swarm de especialistas</td></tr><tr><th>Fuente de verdad</th><td>Odoo</td></tr><tr><th>Estado documentado</th><td>Piloto funcional en modo seguro y de solo lectura</td></tr><tr><th>Control</th><td>Supervisión humana, trazabilidad y restricciones explícitas</td></tr></tbody></table></div>
+  <blockquote><div><strong>Resultado central.</strong> HitoFusion pasó de experimentar con IA como herramienta aislada a diseñar un sistema operativo interno de agentes conectado con procesos reales de soporte, proyectos y gestión diaria.</div></blockquote>
+
+  <h2 id="2-desafio">2. Desafío</h2>
+  <p>La empresa debía integrar inteligencia artificial en flujos de soporte, tickets, tareas de proyecto, comunicación interna y decisiones técnicas sin alterar la fuente de verdad ni habilitar automatizaciones riesgosas. El diseño debía aportar contexto real, registrar evidencia, preservar el control personal y evitar que el conocimiento quedara disperso en conversaciones sueltas.</p>
+  <ul><li>Mantener Odoo como fuente de verdad.</li><li>Evitar escrituras y acciones automáticas durante el piloto.</li><li>Dar a los agentes únicamente el contexto y las herramientas autorizadas.</li><li>Persistir planes, especificaciones, delegaciones, decisiones y aprobaciones.</li><li>Escalar el conocimiento mediante una arquitectura repetible y gobernable.</li></ul>
+
+  <h2 id="3-arquitectura">3. Arquitectura implementada</h2>
+  <h3 id="3-1-buzz">3.1 Buzz como espacio de trabajo</h3>
+  <p>Buzz funciona como interfaz colaborativa. Las personas interactúan con agentes mediante canales, mensajes y menciones; el hilo conserva el contexto conversacional y permite que decisiones y resultados sean visibles para el equipo.</p>
+  <h3 id="3-2-cerebro">3.2 Cerebro como coordinador</h3>
+  <p>Cerebro recibe solicitudes, interpreta el objetivo y activa los flujos de análisis. Es un punto de entrada único: la persona no necesita conocer qué especialista debe intervenir ni cómo distribuir internamente el trabajo.</p>
+  <pre><code>@Cerebro analizá el ticket 2026/03929
+@Cerebro [SWARM START] procesá el ticket 2026/03929</code></pre>
+  <h3 id="3-3-odoo">3.3 Odoo como fuente de verdad</h3>
+  <p>La conexión mediante un gateway controlado permite consultar evidencia autorizada en modo de solo lectura. El piloto no modifica tickets ni otros registros de Odoo.</p>
+  <h3 id="3-4-artefactos">3.4 Artefactos y trazabilidad</h3>
+  <p>El runtime persiste planes diarios, especificaciones, delegaciones, aprobaciones y correcciones. Esta evidencia permite reconstruir qué se pidió, qué fuentes se consultaron, qué propuso el sistema y qué decisión tomó una persona.</p>
+
+  <h2 id="4-swarm">4. Swarm especializado de soporte</h2>
+  <div class="table-wrap"><table><thead><tr><th>Agente</th><th>Responsabilidad</th></tr></thead><tbody><tr><td>Soporte · Intake</td><td>Normaliza el ticket o caso recibido.</td></tr><tr><td>Soporte · Evidencia</td><td>Reúne evidencia de solo lectura desde Odoo, registros, capturas o documentación autorizada.</td></tr><tr><td>Soporte · Resolución</td><td>Propone un diagnóstico y próximos pasos basados en evidencia.</td></tr><tr><td>Soporte · Comunicación</td><td>Prepara el borrador de respuesta.</td></tr><tr><td>Soporte · Revisión</td><td>Evalúa el borrador y aprueba o rechaza su calidad.</td></tr></tbody></table></div>
+  <p>El swarm opera en modo <strong>SHADOW</strong>: analiza y recomienda, pero no modifica Odoo, responde clientes, cambia tickets ni despliega código. La decisión y la acción final continúan bajo control humano.</p>
+
+  <h2 id="5-agentes-personales">5. Agentes personales</h2>
+  <p>Los agentes personales representan a colaboradores dentro de los procesos internos. El piloto inicial incluye agentes para Ezequiel e Ignacio, orientados a:</p>
+  <ul><li>Preparar planes diarios desde tareas y tickets.</li><li>Priorizar trabajo y generar especificaciones.</li><li>Preparar delegaciones a Cerebro o a especialistas.</li><li>Registrar aprobaciones, correcciones y trazas.</li><li>Mantener control humano antes de cualquier acción sensible.</li></ul>
+
+  <h2 id="6-flujo">6. Flujo operativo de ejemplo</h2>
+  <ol><li>Una persona menciona a Cerebro y solicita analizar un ticket.</li><li>El sistema identifica el caso y normaliza el pedido.</li><li>El agente de evidencia consulta únicamente fuentes autorizadas.</li><li>El especialista de resolución propone diagnóstico y próximos pasos.</li><li>El agente de comunicación prepara un borrador.</li><li>El agente de revisión controla la calidad.</li><li>El análisis y sus fuentes quedan registrados.</li><li>Una persona revisa y decide cómo continuar.</li></ol>
+
+  <h2 id="7-diferenciadores">7. Diferenciadores del enfoque</h2>
+  <ul><li><strong>Contexto real:</strong> los agentes trabajan sobre tickets, tareas, mensajes y evidencia operativa.</li><li><strong>Límites claros:</strong> el piloto bloquea escrituras automáticas y acciones riesgosas.</li><li><strong>Trazabilidad:</strong> planes, delegaciones y decisiones humanas se conservan como artefactos.</li><li><strong>Supervisión humana:</strong> cada persona puede aprobar, corregir, rechazar o reordenar.</li><li><strong>Arquitectura integrada:</strong> Buzz, Cerebro, Odoo y los especialistas forman un sistema, no un chatbot aislado.</li></ul>
+
+  <h2 id="8-impacto">8. Impacto esperado y validación</h2>
+  <p>El piloto busca reducir el tiempo necesario para comprender tickets y tareas, mejorar la priorización, transferir conocimiento, disminuir trabajo repetitivo de análisis y producir respuestas internas más consistentes. Estos beneficios se presentan como <strong>resultados esperados</strong>: para considerarlos resultados demostrados deben medirse contra una línea de base.</p>
+  <div class="table-wrap"><table><thead><tr><th>Métrica</th><th>Evidencia necesaria</th></tr></thead><tbody><tr><td>Tiempo de análisis</td><td>Comparación antes/después por tipo y complejidad de ticket.</td></tr><tr><td>Calidad de recomendación</td><td>Aceptación, correcciones y evaluación del revisor humano.</td></tr><tr><td>Consistencia</td><td>Cumplimiento de estructura, fuentes y criterios definidos.</td></tr><tr><td>Trabajo repetitivo</td><td>Horas humanas evitadas o reasignadas con calidad equivalente.</td></tr><tr><td>Trazabilidad</td><td>Proporción de casos con evidencia, decisión y aprobación registradas.</td></tr></tbody></table></div>
+
+  <h2 id="9-estado">9. Estado del piloto</h2>
+  <ul><li>Workspace Buzz publicado y operativo.</li><li>Cerebro activo como coordinador.</li><li>Swarm de soporte configurado en modo SHADOW.</li><li>Agentes personales iniciales desplegados.</li><li>Conexión de solo lectura con Odoo mediante gateway controlado.</li><li>Persistencia de artefactos de runtime.</li><li>Pruebas de planes diarios, especificaciones, aprobaciones y delegaciones controladas.</li></ul>
+
+  <h2 id="10-evolucion">10. Evolución prevista</h2>
+  <ol><li>Incorporar más personas al espacio de trabajo.</li><li>Validar casos reales de soporte y gestión diaria.</li><li>Medir tiempos de análisis y calidad de recomendaciones.</li><li>Ampliar los agentes personales por rol o área.</li><li>Definir políticas para automatizaciones de bajo riesgo.</li><li>Mantener revisión humana para acciones sensibles.</li></ol>
+
+  <h2 id="11-evidencia">11. Evidencia y alcance documentado</h2>
+  <p>El Gist aportado documenta la arquitectura, los componentes, el estado del piloto, sus restricciones y los beneficios esperados. No publica resultados de pruebas, series de métricas, fechas de observación ni comparación cuantitativa. Por eso esta ficha diferencia el estado funcional de los impactos que todavía deben validarse.</p>
+  <div class="table-wrap"><table><thead><tr><th>Fuente</th><th>Qué permite sostener</th></tr></thead><tbody><tr><td><a href="https://gist.github.com/wsf/8c56ce77faecaa74880f420ef44d96f7" rel="noopener noreferrer">Caso de éxito — Gist de HitoFusion</a></td><td>Desafío, arquitectura, agentes, restricciones, estado del piloto y evolución prevista.</td></tr><tr><td><a href="https://hiperprodu.asartorio.online/" rel="noopener noreferrer">Marco de Hiper(N)productividad</a></td><td>Relación entre agentes personales, swarms, canales, Odoo, trazabilidad y gobierno humano.</td></tr><tr><td>Medición pendiente</td><td>Impacto cuantitativo sobre tiempos, calidad, consistencia, esfuerzo y trazabilidad.</td></tr></tbody></table></div>
+</main></div>
+<script src="/documentation/assets/js/search.js" defer></script><script src="/documentation/assets/js/navigation.js" defer></script><script src="/documentation/assets/js/print.js" defer></script>
+</body></html>
