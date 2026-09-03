@@ -1448,68 +1448,38 @@
   },
   {
     "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Alcance del comunicado",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#3-alcance",
-    "text": "Servicios propios y de terceros, conectividad, infraestructura, actualizaciones, incidentes y acuerdos de nivel de servicio."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Prevención y preparación",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#4-prevencion",
-    "text": "Revisión continua, controles, monitoreo, accesos, respaldos, recuperación y registro de cambios e incidentes."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Respuesta ante una indisponibilidad",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#6-respuesta",
-    "text": "Detección, evaluación, contención, recuperación, comunicación y revisión posterior."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Información que debe enviar el cliente",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#7-informacion-cliente",
-    "text": "Instancia, horario, usuarios afectados, mensaje de error, capturas y pasos previos sin compartir secretos."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Mensaje breve para distribución",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#9-mensaje-breve",
-    "text": "Versión breve del comunicado sobre IA, revisión continua, reducción de riesgos y respuesta ante incidentes."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Nuevo escenario y riesgos",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-escenario",
-    "text": "IA, automatizaciones e integraciones aumentan la complejidad; una computadora común carece de redundancia, monitoreo y recuperación probada."
-  },
-  {
-    "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Plan coordinado con el cliente",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-plan-coordinado",
-    "text": "Responsables, ubicación, horario, retención, acceso, custodia y evidencia de las medidas de continuidad."
+    "topic": "Medidas coordinadas",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-medidas",
+    "text": "Información esencial local, respaldo externo diario, custodia, evidencia, mejora continua y coordinación de recuperación."
   },
   {
     "page": "Indisponibilidad del sistema — Seguridad",
     "topic": "Responsabilidades del cliente",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-1-cliente",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-1-cliente",
     "text": "Directorio local de información esencial, listados críticos, custodia segura y control periódico de recepción."
   },
   {
     "page": "Indisponibilidad del sistema — Seguridad",
     "topic": "Compromisos de HitoFusion",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-2-hitofusion",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-2-hitofusion",
     "text": "Respaldo externo diario, registro de ejecución, mejora continua, evidencia ante fallas de terceros y coordinación de recuperación."
   },
   {
     "page": "Indisponibilidad del sistema — Seguridad",
-    "topic": "Evidencia y certificación",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-3-certificacion",
-    "text": "Registros, reportes, identificadores, fecha, hora, resultado, integridad y pruebas periódicas de recuperación."
+    "topic": "Respuesta ante una indisponibilidad",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#3-indisponibilidad",
+    "text": "Registro, evaluación, contención, recuperación, comunicación y datos que debe aportar el cliente."
   },
   {
     "page": "Indisponibilidad del sistema — Seguridad",
     "topic": "Preguntas frecuentes",
-    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#8-preguntas-frecuentes",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#4-preguntas-frecuentes",
     "text": "Alta disponibilidad, causas de caídas, riesgos de instalar Odoo en una PC común y próximos pasos."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Alcance del comunicado",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-alcance",
+    "text": "Clientes con Odoo administrado por HitoFusion; niveles de servicio y compromisos específicos según cada acuerdo vigente."
   }
 ]
