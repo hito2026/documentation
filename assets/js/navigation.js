@@ -26,6 +26,19 @@
     rootList.append(section);
   }
 
+  const securityPath = "/documentation/seguridad/";
+  if (!rootList.querySelector(`a[href="${securityPath}"]`)) {
+    const section = document.createElement("li");
+    section.innerHTML = `
+      <details open>
+        <summary><a href="${securityPath}">Seguridad</a></summary>
+        <ul>
+          <li><a href="${securityPath}indisponibilidad-del-sistema/">Indisponibilidad del sistema</a></li>
+        </ul>
+      </details>`;
+    rootList.append(section);
+  }
+
   const normalizePath = (path) => path.replace(/index\.html$/, "").replace(/\/$/, "");
   const currentPath = normalizePath(window.location.pathname);
   rootList.querySelectorAll("a").forEach((link) => {
