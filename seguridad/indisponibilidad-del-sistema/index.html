@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Indisponibilidad del sistema — Seguridad — HitoFusion Docs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/documentation/assets/css/base.css" /><link rel="stylesheet" href="/documentation/assets/css/brand.css" />
+</head>
+<body>
+<header><button class="menu-btn" onclick="var s=document.getElementById('sb'),o=document.getElementById('mo');s.classList.toggle('open');o.classList.toggle('show')" aria-label="Menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button><a href="/documentation/" class="logo" aria-label="HitoFusion Docs — Inicio"><img src="/documentation/assets/images/hitofusion-logo.webp" alt="HitoFusion" width="184" height="32" /><span class="docs-label">Documentación técnica</span></a><div class="site-search" data-site-search role="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="site-search-input" type="search" placeholder="Buscar temas" autocomplete="off" aria-label="Buscar temas en la documentación" aria-controls="site-search-results" aria-expanded="false" /><kbd aria-hidden="true">/</kbd><div id="site-search-results" class="search-results" data-search-results role="listbox" hidden></div></div></header>
+<div class="menu-overlay" id="mo" onclick="document.getElementById('sb').classList.remove('open');this.classList.remove('show')"></div>
+<div class="layout"><aside class="sidebar" id="sb"><ul><li><a href="/documentation/">Home</a></li><li><details><summary>Integraciones</summary><ul><li><a href="/documentation/integraciones/tipos-de-integraciones/">Tipos de integraciones</a></li><li><a href="/documentation/integraciones/deltav/">Deltav</a></li><li><a href="/documentation/integraciones/produccion/">Producción</a></li></ul></details></li><li><details><summary>Infraestructura</summary><ul><li><a href="/documentation/infraestructura/instalacion-odoo-local/">Instalación Odoo Local</a></li><li><a href="/documentation/infraestructura/alta-disponibilidad/caso-onecloud/">Alta disponibilidad</a></li></ul></details></li></ul></aside>
+<main class="content">
+  <h1 id="indisponibilidad-del-sistema"><a class="heading-anchor" href="#indisponibilidad-del-sistema">#</a>Indisponibilidad del sistema</h1>
+  <p>Comunicado para clientes que utilizan instancias de Odoo alojadas en infraestructura administrada por HitoFusion.</p>
+  <div class="document-meta"><span>Seguridad</span><span>Continuidad</span><span>Recuperación</span><span>Odoo administrado</span><span>Comunicado a clientes</span></div>
+
+  <h2 id="1-comunicado">1. Comunicado</h2>
+  <blockquote><div><strong>Nuestro compromiso con la continuidad y la seguridad.</strong><br /><br />La incorporación de inteligencia artificial a los procesos y servicios empresariales presenta nuevas oportunidades, pero también amplía los desafíos de seguridad y continuidad operativa. En HitoFusion trabajamos para que las instancias de Odoo que administramos se mantengan estables, protegidas y recuperables frente a incidentes.<br /><br />Los servicios externos contratados, nuestra infraestructura y los procesos y herramientas internos se encuentran en revisión continua. Este trabajo nos permite fortalecer controles, reducir riesgos, mejorar la capacidad de respuesta y sostener el mejor nivel de servicio posible.<br /><br />Ante una interrupción o degradación, nuestro equipo analiza la situación, contiene el impacto, coordina la recuperación y comunica la evolución por los canales definidos. Cada incidente se utiliza también como fuente de aprendizaje para mejorar las medidas preventivas y los procedimientos de recuperación.</div></blockquote>
+
+  <h2 id="2-alcance">2. Alcance</h2>
+  <p>Este comunicado se aplica a clientes con instancias de Odoo alojadas en hosting administrado por HitoFusion. La disponibilidad puede verse afectada por componentes propios, servicios de terceros, conectividad, infraestructura, actualizaciones, incidentes de seguridad u otras dependencias de la solución.</p>
+  <p>La revisión continua reduce la probabilidad y el impacto de incidentes, pero no implica una garantía de disponibilidad absoluta. Los niveles de servicio, ventanas de mantenimiento y compromisos específicos son los establecidos en cada contrato o acuerdo vigente.</p>
+
+  <h2 id="3-prevencion">3. Prevención y preparación</h2>
+  <ul><li>Revisión periódica de servicios externos, infraestructura y herramientas internas.</li><li>Actualización de controles y procedimientos a medida que evolucionan las amenazas.</li><li>Monitoreo de estabilidad, capacidad y señales relevantes para la operación.</li><li>Protección de accesos, credenciales y datos según el entorno administrado.</li><li>Respaldo y mecanismos de recuperación definidos conforme al servicio contratado.</li><li>Registro de cambios e incidentes para facilitar análisis y aprendizaje.</li></ul>
+
+  <h2 id="4-respuesta">4. Respuesta ante una indisponibilidad</h2>
+  <ol><li><strong>Detección y registro:</strong> identificación del evento y apertura del seguimiento.</li><li><strong>Evaluación:</strong> determinación del alcance, impacto y prioridad.</li><li><strong>Contención:</strong> acciones para limitar la propagación o degradación.</li><li><strong>Recuperación:</strong> restauración progresiva y validada del servicio.</li><li><strong>Comunicación:</strong> actualización por los canales acordados cuando corresponda.</li><li><strong>Revisión posterior:</strong> análisis de causa, evidencia y oportunidades de mejora.</li></ol>
+
+  <h2 id="5-cliente">5. Qué debe informar el cliente</h2>
+  <p>Si detecta una interrupción o degradación, comuníquese mediante el canal habitual de soporte e incluya, cuando sea posible:</p>
+  <ul><li>Instancia o dirección afectada.</li><li>Fecha y hora aproximada de inicio.</li><li>Usuarios, áreas o funciones afectadas.</li><li>Mensaje de error o comportamiento observado.</li><li>Capturas y pasos realizados antes del incidente, sin compartir contraseñas ni secretos.</li></ul>
+  <p>Esta información permite priorizar la atención, reducir el tiempo de diagnóstico y mantener trazabilidad durante la recuperación.</p>
+
+  <h2 id="6-mensaje-breve">6. Versión breve para distribución</h2>
+  <blockquote><div>La evolución de la inteligencia artificial plantea nuevos desafíos para mantener los sistemas estables, seguros y recuperables. En HitoFusion revisamos continuamente los servicios externos contratados, nuestra infraestructura y los procesos y herramientas internos para reducir riesgos, fortalecer la continuidad operativa y brindar el mejor servicio posible. Ante una indisponibilidad, nuestro equipo activa los procedimientos de análisis, contención, recuperación y comunicación definidos para cada entorno.</div></blockquote>
+
+  <h2 id="7-vigencia">7. Vigencia y actualizaciones</h2>
+  <p>Este comunicado expresa el criterio general de HitoFusion y podrá actualizarse a medida que evolucionen la tecnología, los riesgos, los servicios contratados y los procedimientos internos. La última versión publicada en este portal es la versión vigente para comunicación general.</p>
+</main></div>
+<script src="/documentation/assets/js/search.js" defer></script><script src="/documentation/assets/js/navigation.js" defer></script><script src="/documentation/assets/js/print.js" defer></script>
+</body></html>

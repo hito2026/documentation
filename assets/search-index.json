@@ -1433,5 +1433,47 @@
     "topic": "Evidencia y alcance documentado",
     "url": "/documentation/hiper-n-productividad/casos-de-exito/hitofusion-buzz-cerebro/#11-evidencia",
     "text": "El Gist documenta arquitectura, restricciones y estado funcional; las métricas cuantitativas todavía no fueron publicadas."
+  },
+  {
+    "page": "Seguridad",
+    "topic": "Seguridad, continuidad y recuperación",
+    "url": "/documentation/seguridad/",
+    "text": "Comunicaciones y criterios para servicios e instancias de Odoo alojadas en infraestructura administrada por HitoFusion."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Comunicado a clientes",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/",
+    "text": "Compromiso de HitoFusion con la estabilidad, la seguridad, la continuidad operativa y la recuperabilidad de instancias Odoo administradas."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Alcance del comunicado",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#2-alcance",
+    "text": "Servicios propios y de terceros, conectividad, infraestructura, actualizaciones, incidentes y acuerdos de nivel de servicio."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Prevención y preparación",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#3-prevencion",
+    "text": "Revisión continua, controles, monitoreo, accesos, respaldos, recuperación y registro de cambios e incidentes."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Respuesta ante una indisponibilidad",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#4-respuesta",
+    "text": "Detección, evaluación, contención, recuperación, comunicación y revisión posterior."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Información que debe enviar el cliente",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#5-cliente",
+    "text": "Instancia, horario, usuarios afectados, mensaje de error, capturas y pasos previos sin compartir secretos."
+  },
+  {
+    "page": "Indisponibilidad del sistema — Seguridad",
+    "topic": "Mensaje breve para distribución",
+    "url": "/documentation/seguridad/indisponibilidad-del-sistema/#6-mensaje-breve",
+    "text": "Versión breve del comunicado sobre IA, revisión continua, reducción de riesgos y respuesta ante incidentes."
   }
 ]
