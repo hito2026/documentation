@@ -127,6 +127,139 @@ header .logo .docs-label {
   font-weight: 700 !important;
 }
 
+.acceptance-required {
+  display: grid;
+  gap: 6px;
+  margin: 24px 0 32px;
+  padding: 18px 20px;
+  border: 1px solid #e4a5a5;
+  border-left: 5px solid #b71c1c;
+  border-radius: 10px;
+  background: #fff5f5;
+  color: #651515;
+}
+
+.acceptance-required strong {
+  color: #b71c1c;
+  font-size: 1.02rem;
+}
+
+.acceptance-section {
+  margin-top: 48px;
+  padding: 24px;
+  border: 1px solid #cbdadd;
+  border-radius: 14px;
+  background: #f8fbfc;
+}
+
+.acceptance-section h2 {
+  margin-top: 0;
+}
+
+.acceptance-form,
+.acceptance-fields,
+.acceptance-form fieldset {
+  display: grid;
+  gap: 16px;
+}
+
+.acceptance-fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.acceptance-form label:not(.acceptance-check) {
+  display: grid;
+  gap: 7px;
+  color: #173f4c;
+  font-weight: 600;
+}
+
+.acceptance-form input[type="text"],
+.acceptance-form input[type="email"] {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #aebfc4;
+  border-radius: 7px;
+  background: #fff;
+  color: #172b33;
+  font: inherit;
+}
+
+.acceptance-form input:focus-visible {
+  outline: 3px solid rgba(14, 97, 115, 0.22);
+  outline-offset: 1px;
+  border-color: #0e6173;
+}
+
+.acceptance-form fieldset {
+  margin: 4px 0 0;
+  padding: 18px;
+  border: 1px solid #cbdadd;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.acceptance-form legend {
+  padding: 0 8px;
+  color: #173f4c;
+  font-weight: 700;
+}
+
+.acceptance-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.acceptance-check input {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  accent-color: #0e6173;
+}
+
+.acceptance-final {
+  padding: 14px;
+  border-radius: 9px;
+  background: #eef5f6;
+}
+
+.acceptance-submit {
+  justify-self: start;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #b71c1c;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.acceptance-submit:hover {
+  background: #951717;
+}
+
+.acceptance-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.acceptance-status {
+  min-height: 1.4em;
+  margin: 0;
+  color: #0e6173;
+  font-weight: 600;
+}
+
+.acceptance-note {
+  margin: 0;
+  color: #52656d;
+  font-size: 0.84rem;
+}
+
 .site-search svg {
   position: absolute;
   z-index: 1;
@@ -432,6 +565,14 @@ code:not(pre code) {
     padding: 0 11px;
     font-size: 0.76rem;
   }
+
+  .acceptance-section {
+    padding: 18px;
+  }
+
+  .acceptance-fields {
+    grid-template-columns: 1fr;
+  }
 }
 
 @page {
@@ -459,6 +600,16 @@ code:not(pre code) {
   .menu-btn,
   .search-results,
   .print-button {
+    display: none !important;
+  }
+
+  .acceptance-form {
+    break-inside: avoid-page;
+  }
+
+  .acceptance-submit,
+  .acceptance-status,
+  .acceptance-note {
     display: none !important;
   }
 
