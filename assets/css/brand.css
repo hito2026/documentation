@@ -93,6 +93,34 @@ header .logo .docs-label {
   display: none;
 }
 
+.hp-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.hp-logo {
+  margin: 0;
+  text-align: center;
+}
+
+.hp-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e0c5c9;
+  border-radius: 24px;
+  box-shadow: 0 12px 30px rgba(88, 0, 15, 0.18);
+}
+
+.hp-logo figcaption {
+  margin-top: 8px;
+  color: var(--c-text2);
+  font-size: 0.74rem;
+}
+
 .site-search svg {
   position: absolute;
   z-index: 1;
@@ -338,6 +366,15 @@ code:not(pre code) {
 }
 
 @media (max-width: 860px) {
+  .hp-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .hp-logo {
+    width: min(260px, 78vw);
+    margin-inline: auto;
+  }
+
   header {
     padding: 0 16px;
   }

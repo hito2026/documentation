@@ -1223,7 +1223,73 @@
     "page": "Hiper(N)productividad",
     "topic": "Hiper(N)productividad",
     "url": "/documentation/hiper-n-productividad/",
-    "text": "Inteligencia artificial aplicada, tecnología HitoFusion, plataforma Jinzo y casos de éxito."
+    "text": "Marco conceptual, tecnológico y metodológico de colaboración humano-agente para dirigir, documentar y gestionar iniciativas productivas trazables."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Definición y propósito",
+    "url": "/documentation/hiper-n-productividad/#1-definicion",
+    "text": "Mapa público, cockpit operativo, objetivos, roles, permisos, herramientas, evidencia y procesos."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Ciclo de amplificación",
+    "url": "/documentation/hiper-n-productividad/#2-ciclo",
+    "text": "Acción humana, amplificación por agentes y recursión del aprendizaje como nuevo contexto."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Pilares de la plataforma",
+    "url": "/documentation/hiper-n-productividad/#3-pilares",
+    "text": "Agente personal, swarms, canales colaborativos, Odoo backbone, oficinas virtuales, Config init, cerebro organizacional, métricas y motores de agentes."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Agente personal y configuración",
+    "url": "/documentation/hiper-n-productividad/#3-1-agente-personal",
+    "text": "Clon operativo según identidad, rol, estilo, permisos, instrucciones, herramientas, memoria, contexto y límites."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Swarms o equipos de agentes",
+    "url": "/documentation/hiper-n-productividad/#3-2-swarms",
+    "text": "Agentes especializados que exploran, planifican, ejecutan, verifican y documentan."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Canales colaborativos y Odoo",
+    "url": "/documentation/hiper-n-productividad/#3-3-canales",
+    "text": "Telegram, Slack, WhatsApp y Buzz como interfaces; Odoo como sistema de registro para CRM, proyectos, tareas, documentos, aprobaciones y métricas."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Oficinas virtuales, Config init y cerebro organizacional",
+    "url": "/documentation/hiper-n-productividad/#3-5-oficinas",
+    "text": "Representación visual del trabajo, sensado organizacional y contexto compartido para observar y decidir."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Dimensiones de gestión",
+    "url": "/documentation/hiper-n-productividad/#4-gestion",
+    "text": "Proyectos, negocios, investigación, capacitación e implementación."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Recorridos de adopción",
+    "url": "/documentation/hiper-n-productividad/#5-recorridos",
+    "text": "Idea, implementación, formación y laboratorio; proyectos técnicos, capacitación, investigación y comprensión conceptual."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "Públicos y aplicaciones",
+    "url": "/documentation/hiper-n-productividad/#6-publicos",
+    "text": "Profesionales, empresas, academia y equipos informáticos."
+  },
+  {
+    "page": "Hiper(N)productividad",
+    "topic": "De la visión a la operación",
+    "url": "/documentation/hiper-n-productividad/#7-operacion",
+    "text": "Soporte de dirección, evidencia, decisiones y cartera de proyectos trazable, evaluable y escalable."
   },
   {
     "page": "Casos de éxito — Hiper(N)productividad",
